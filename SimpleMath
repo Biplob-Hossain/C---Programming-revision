@@ -1,0 +1,35 @@
+
+// This Code for General Math Practise
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+    int num1=20,num2=30, sum,mul,subs;
+    float mod,div;
+
+    sum=num1+num2;
+    
+    subs=num2-num1;
+
+    mul=num1*num2;
+    
+    mod=num2%num1;
+
+    div=num2/num1;
+
+    
+    cout<<"SUm of two number is "<<sum<<endl;
+    cout<<"Substract  is "<<subs <<endl;
+    cout<<"Multiply of two number is "<<mul<<endl;
+    cout<<"Modulus is "<<mod<<endl;
+    cout<<"Dividation is "<<mod<<endl;
+
+    
+
+
+
+}
