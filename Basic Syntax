@@ -1,0 +1,13 @@
+
+#include<iostream>
+
+using namespace std;
+int main()
+{
+
+cout << " Hello this is the basic syntax of C++";
+
+return 0;
+
+
+}
