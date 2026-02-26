@@ -1,0 +1,40 @@
+// this programming is for User input practise 
+
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+
+int main()
+{
+
+    int num;
+    double ID;
+    char N;
+    char name [20]; // for String
+
+
+    cout<<"Please Enter any number "<<endl;
+    cin>>num;
+    
+    
+    cout<<"please Enter your ID number"<<endl;
+    cin>>ID;
+   
+
+    cout<<"Please Enter any character"<<endl;
+    cin>>N;
+    
+
+    cout<<"Please Enter your name"<<endl;
+    cin>>name;
+    
+
+    cout<<name<<endl;
+    cout<<ID<<endl;
+    cout<<N<<endl;
+    cout<<name<<endl;
+
+
+    getch();
+}
