@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+ int I;
+ float F;
+ double D;
+ char C;
+
+ cout<< "Size of Intiger is "  <<sizeof(I) << " Bytes"<<endl; 
+ cout<< "Size of Intiger is "  <<sizeof(F) << " Bytes"<<endl; 
+ cout<< "Size of Intiger is "  <<sizeof(D) << " Bytes"<<endl;
+ cout<< "Size of Intiger is "  <<sizeof(C) << " Bytes"<<endl; 
+ 
+
+}
