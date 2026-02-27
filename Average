@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+ int num1=15, num2=16, num3=18;
+
+ float average;
+
+average=  (num1+num2+num3) /3.0f;
+ 
+
+ cout<<"Average of thre number is "<<average; 
+
+}
