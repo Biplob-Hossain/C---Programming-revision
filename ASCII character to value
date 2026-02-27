@@ -1,0 +1,14 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int input;
+
+    cout<<"Enter any ASCII value"<<endl;
+    cin>>input;
+    cout<<"Character for your ASCII Value "<<(char)input;
+
+}
