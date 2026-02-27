@@ -1,0 +1,20 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+
+double area, r;
+const double PI=3.14159;
+
+cout<<"Please enter radius of your circle";
+
+cin>>r;
+
+area=PI * r * r;
+
+cout<<" Area of your Circle is " << area;
+
+}
