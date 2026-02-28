@@ -1,0 +1,19 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+ double Farhenheit, Celcius;
+
+  cout<<"Enter your Celcius now "<<endl;
+  cin>>Celcius;
+
+  Farhenheit=(Celcius*1.8)+32;
+
+  cout<<"Temperature is now " <<Farhenheit<<(char)248 <<"F";
+
+
+
+}
