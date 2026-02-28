@@ -1,0 +1,21 @@
+#include<iostream>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+    SetConsoleOutputCP(CP_UTF8);
+
+ double Farhenheit, Celcicus;
+
+ cout<<" Enter Farhenheit now "<<endl;
+ cin>>Farhenheit;
+
+ Celcicus=(Farhenheit-32)/1.8;
+
+ cout<<"Temperature now is "<<Celcicus<<"\u00B0"<<"C";
+
+ return 0;
+
+}
