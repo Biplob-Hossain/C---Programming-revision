@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+
+ int input;
+
+ cout<<"Please enter any input to check weather it is even or odd"<<endl;
+
+cin>> input;
+
+if (input%2==0)
+{
+    cout<<input<<" This is a Even number";
+}
+
+else
+
+cout<<input<<"This is a odd numebr";
+
+
+}
