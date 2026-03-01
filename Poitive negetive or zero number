@@ -1,0 +1,30 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+    int input;
+    cout<<"Please enter any number to check weather it is positive or negetive or zero"<<endl;
+
+    cin>>input;
+    if (input>0)
+    {
+       cout<<"This is a Positive number"<<endl;
+    }
+
+    else if (input<0)
+    {
+        cout<<"This is a negetive number"<<endl;
+    }
+
+    else
+    {
+        cout<<"This is a zero";
+    }
+     
+    
+    
+
+}
