@@ -1,0 +1,28 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+    char input;
+    cout<<"Please Enter anything to cheack weather it is Alphabet or Digit or Special Character"<<endl;
+
+    cin>>input;
+
+    if ((input>='A' && input<='Z') || (input>= 'a' && input<='z'))
+    {
+        cout<<input<<"This is a Character"<<endl;
+    }
+
+    else if (input>= '0' && input<= '9' )
+    {
+        cout<<input <<" This is a Digit"<<endl; 
+    }
+
+    else
+    cout<<input<<" This is a Special Character"<<endl;
+    
+    
+
+}
