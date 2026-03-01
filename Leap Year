@@ -1,0 +1,23 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+
+int year;
+
+cout<<"Please Enter a year to chyeck weather it is Leap year or not"<<endl;
+
+cin>>year;
+
+if ((year %4==0 && year %100!=0) || (year %400==0))
+{
+
+    cout<<year<<" This is a Leapyear"<<endl;
+}
+
+
+
+
+}
+
