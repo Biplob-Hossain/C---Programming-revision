@@ -1,0 +1,21 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+double arm1, arm2, arm3;
+cout<<"Entre three arm of your triangle"<<endl;
+
+cin>>arm1>>arm2>>arm3;
+
+if (arm1 + arm2 > arm3 && arm1 + arm3 > arm2 && arm2 + arm3 > arm1 && arm1>0 && arm2>0 && arm3>0)
+{
+    cout<<" Yes! this is real Triangle";
+}
+else
+cout<<"Sorry!  This is not Triangle ";
+
+
+}
