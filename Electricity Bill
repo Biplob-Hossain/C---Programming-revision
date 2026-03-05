@@ -1,0 +1,30 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+
+{
+    int unit;
+    double Bill;
+
+    cout<<" Input Your Consumed Unit"<<endl;
+    cin>>unit;
+
+    if (unit<=100)
+    {
+        Bill=100*5;
+        cout<<"Your Bill is "<<Bill;
+
+    }
+    else if (unit<=200)
+    {
+        Bill=100*5 + (unit-100)*7;
+        cout<<"Your Bill is "<<Bill;
+    }
+    else
+    Bill= 100*5 + 100*7 + (unit-200)*10;
+    
+    
+
+}
