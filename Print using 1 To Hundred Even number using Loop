@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int num;
+
+    cout<<"One to Hundred Even number is "<<endl;
+    for (num  = 0; num <= 100; num+=2)
+    {
+       
+        cout<< num<<endl;
+    }
+    
+
+}
