@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+
+int num, sum=0;
+
+for (num = 2; num <= 100; num+=2)
+{
+    sum=sum+num;
+}
+
+cout<<"Sum of Even number Loop is "<< sum<<endl;
+
+}
